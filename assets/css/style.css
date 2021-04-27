@@ -410,7 +410,7 @@ section {
    }
 
    .trainer {
-       flex: 0 100%
+       flex: 0 70%
    }
 
    .contact-info iframe {
@@ -454,7 +454,7 @@ section {
     }
 
     .section-title {
-        width: 95;
+        width: 95%;
     }
 
     .intro p {

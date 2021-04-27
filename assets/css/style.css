@@ -9,7 +9,7 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
+/* Header Styles Start */
 header{
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -48,6 +48,10 @@ header nav ul li a {
     font-size: 1.5vw;
 }
 
+/* Header Styles End */
+
+/* Footer Styles Start */
+
 footer {
     background: #fce138;
     width: 100%;
@@ -76,6 +80,8 @@ section {
     padding: 60px;
 }
 
+/* Footer Styles End */
+
 /* Hero Styles Start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
@@ -103,7 +109,7 @@ section {
 }
 
 .hero-form {
-    border: solid 3px #024e76;
+    border: 3px solid #024e76;
     background-color: #fce138;
     color: #024e76;
     padding: 20px;
@@ -117,7 +123,7 @@ section {
 }
 
 .hero-form p {
-    margin: 5px 0 15px 0px;
+    margin: 5px 0 15px 0;
 }
 
 .form-input {
@@ -142,6 +148,28 @@ section {
     font-size: 16px;
 }
 /* Hero Style End */
+
+/* Section Title Styles Start */
+
+.section-title {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    color: #024e76;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+/* Section Title Styles End */
 
 /* What We Do Styles Start */
 
@@ -212,24 +240,6 @@ section {
 
 /* WHAT YOU DO STYLES END */
 
-.section-title {
-    font-size: 48px;
-    border-bottom: 3px solid;
-    color: #024e76;
-    padding-bottom: 20px;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
-}
-
 /* Meet The Trainers Start */
 
 .trainers {
@@ -270,17 +280,7 @@ section {
     font-size: 17px;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
-.flex-row {
-    display: flex;
-}
+/* Trainer Styles Start */
 
 /* REACH OUT Styles Start */
 
@@ -352,6 +352,23 @@ section {
 
 /* REACH OUT Styles End */
 
+
+/* Utilities Start */
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
+}
+
+/* Utilities End */
+
 /* Media Query For Smaller Desktop Screens and Smaller */
 
 @media screen and (max-width: 980px) {
@@ -386,6 +403,18 @@ section {
 
    .hero-cta {
        text-align: center;
+   }
+
+   .section-title {
+       width: 80%;
+   }
+
+   .trainer {
+       flex: 0 100%
+   }
+
+   .contact-info iframe {
+       flex: 1 100%
    }
 }
 

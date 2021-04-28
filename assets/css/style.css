@@ -224,10 +224,10 @@ section {
     height: 20px;
     border-radius: 50%;
     background: var(--secondary-color);
-    background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color));
     position: absolute;
     left: -29px;
     top: -3px;
+    background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color));
 }
 
 .checkbox-wrapper label::after {

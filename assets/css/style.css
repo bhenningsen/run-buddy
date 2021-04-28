@@ -232,7 +232,7 @@ section {
 
 .checkbox-wrapper label::after {
     content: "";
-    height: 16px;
+    height: 6px;
     width: 14px;
     border-left: 2px solidvar(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
@@ -249,7 +249,7 @@ section {
 
 .checkbox-wrapper input:checked + label::after,
 .radio-wrapper input:checked + label::after {
-    content: none;
+    content: "";
 }
 
 /* Hero Style End */

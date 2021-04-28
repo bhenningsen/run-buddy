@@ -12,7 +12,6 @@ body {
 /* Header Styles Start */
 header{
     padding: 20px 35px;
-    /* background-color: #39a6b2; */
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
@@ -30,6 +29,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -53,12 +53,20 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.5vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul li a:hover {
     background: #fce138;
     color: #024e76;
-    border-radis: 15px;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
     text-shadow: none;
 }
 
@@ -106,6 +114,8 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 .hero-cta {
@@ -121,15 +131,18 @@ section {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form {
     border: 3px solid #024e76;
-    background-color: #fce138;
+    border-radius: 15px;
+    background-color: rgba(252, 225, 56, 0.8);
     color: #024e76;
     padding: 20px;
     width: 40%;
     margin: 3.5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form h3 {
@@ -143,6 +156,7 @@ section {
 
 .form-input {
     border: 1px solid #024e76;
+    border-radius: 10px;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
@@ -165,6 +179,7 @@ section {
     color: #fce138;
     background-color: #024e76;
     border: none;
+    border-radius: 10px;
     padding: 10px 20px;
     font-size: 16px;
 }
@@ -268,6 +283,10 @@ section {
     color: #024e76;
 }
 
+.step:not(:last-child) {
+    border-bottom: 1px solid #39a6b2;
+}
+
 /* WHAT YOU DO STYLES END */
 
 /* Meet The Trainers Start */
@@ -357,6 +376,7 @@ section {
 .contact-form input,
 .contact-form textarea {
     border: 1px solid #024e76;
+    border-radius: 10px;
     display: block;
     padding: 7px 15px;
     font-size: 16px;
@@ -376,6 +396,7 @@ section {
 .contact-form button {
     width: 100%;
     border: none;
+    border-radius: 10px;
     background: #fce138;
     color: #024e76;
     text-align: center;

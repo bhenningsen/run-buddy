@@ -14,8 +14,8 @@ header{
     padding: 20px 35px;
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
+    background-position: 80%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -63,12 +63,6 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
-header nav ul li a:hover {
-    background: #fce138;
-    color: #024e76;
-    border-radius: 15px;
-    text-shadow: none;
-}
 
 /* Header Styles End */
 
@@ -108,8 +102,8 @@ section {
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
-    background-position: center;
     background-attachment: fixed;
+    background-position: 80%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -239,7 +233,6 @@ section {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #39a6b2;
 }
 
 .step:not(:last-child) {
